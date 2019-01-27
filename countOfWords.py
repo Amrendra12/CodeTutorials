@@ -6,8 +6,6 @@ with open("messages.txt","r") as doc1:
     text= doc1.readlines()
     for line in text:
         words=line.split()
-        #if words.islower()
-		#count+=1
         for abc in words:
             #count12=0
             if (abc.isupper())==True:
